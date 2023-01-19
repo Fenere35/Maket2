@@ -23,7 +23,6 @@ a {
   width: 100%;
   box-sizing: border-box; 
   margin: auto;
-  padding: 0;
 }
 
 ul {
@@ -36,14 +35,26 @@ ul {
   padding: 25px 30px;
 }
 
+.logo-img {
+  border: 1px solid red;  
+}
+
+.img-link {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+}
+
 .header-container__nav {
+  border: 1px solid red;
   display: flex;
   flex-basis: 50%;
 }
 
 .header-container__ul {
+  border: 1px solid red;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 40px;
   align-items: center;
   flex-wrap: wrap;
@@ -60,7 +71,7 @@ ul {
 }
 
 .header-link__btn {
-  display: block;
+  display: inline-block;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
@@ -73,3 +84,4 @@ ul {
   max-width: 118px;
   word-break: break-all;
 }
+
